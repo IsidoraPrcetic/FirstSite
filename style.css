@@ -1,0 +1,103 @@
+           body {
+               margin: 0px;
+               padding: 0px;
+           }
+           
+           .header {}
+           
+           .page {}
+           
+           .footer {
+               border-top: 4px solid #dc0101;
+           }
+           
+           .column {
+               /* border: 1px solid black;*/
+               width: 960px;
+               margin: 0px auto;
+           }
+           
+           .page .column {
+               height: 100vh;
+           }
+           
+           #holder {
+               display: flex;
+           }
+           
+           #imgs {
+               flex-grow: 1;
+           }
+           
+           #serach {
+               flex-grow: 1;
+           }
+           
+           #main-menu {
+               display: flex;
+           }
+           
+           #main-menu a {
+               flex-grow: 1;
+               text-align: center;
+               color: #666666;
+               text-decoration: none;
+               display: block;
+               padding: 10px;
+               font-family: 'Open Sans';
+               font-weight: bold;
+               font-size: 14px;
+           }
+           
+           #main-menu a:hover,
+           #main-menu a.active {
+               color: #e80606;
+               transition: 300ms;
+           }
+           
+           #logo {
+               text-align: center;
+               margin-bottom: 50px;
+           }
+           
+           #search {
+               background-color: #666666;
+           }
+           
+           #imgs img {
+               margin: 2px 1px;
+           }
+           
+           #pocetna {
+               background: url('slike/slika1.png');
+               background-origin: content-box;
+               background-position: top;
+               height: 330px;
+               width: 960px;
+               border-bottom: 4px solid #dc0101;
+           }
+           
+           #second p {
+               font-size: 32px;
+               font-family: 'Open Sans';
+               font-style: italic;
+               color: #666666;
+               kerning: 0;
+               text-align: center;
+           }
+           
+           form {
+               display: flex;
+               flex-direction: row;
+           }
+           
+           form input {
+               background-color: #f8f6f6e5;
+               margin: 0px;
+               border: none;
+           }
+           
+           form button {
+               border: none;
+               margin-left: 0px;
+           }
