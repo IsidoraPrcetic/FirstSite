@@ -74,7 +74,7 @@ body {
     border-bottom: 4px solid #dc0101;
 }
 
-#second>p {
+#second-page>p {
     font-size: 32px;
     font-family: 'Open Sans';
     font-style: italic;
@@ -131,26 +131,26 @@ form button {
     width: 960px;
 }
 
-.part {
+.layout-column {
     flex: 50%;
     margin: 50px 10px;
     font-family: 'Open Sans';
     font-weight: bold;
 }
 
-.part h2 {
+.layout-column h2 {
     font-size: 24px;
     color: #b61f25;
     kerning: 0;
 }
 
-.part p {
+.layout-column p {
     font-size: 12px;
     color: #333333;
     kerning: 0;
 }
 
-.part ul {
+.layout-column ul {
     font-size: 12px;
     list-style-position: outside;
     list-style-type: none;
@@ -159,7 +159,7 @@ form button {
     color: #333333;
 }
 
-.part ul li {
+.layout-column ul li {
     padding: 5px;
 }
 
@@ -204,12 +204,12 @@ footer>div>div {
     font-size: 18px;
 }
 
-.second-paragraph {
+.secondary-paragraph {
     text-transform: uppercase;
     text-decoration: underline;
 }
 
-.last {
+.last-part-footer {
     font-size: 11px;
     justify-content: space-between;
 }
