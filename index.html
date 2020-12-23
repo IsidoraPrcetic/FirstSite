@@ -9,14 +9,14 @@
 </head>
 
 <body>
-    <div class="header">
+    <header>
         <div class="column">
 
             <div id="holder">
 
                 <div id="imgs">
-                    <img alt="Loading..." src="slike/flag-rs.png">
-                    <img alt="Loading..." src="slike/flag-uk.png">
+                    <img alt="Flag of Serbia" src="slike/flag-rs.png">
+                    <img alt="Flag of the United Kingdom" src="slike/flag-uk.png">
                 </div>
                 <!-- end #imgs-->
 
@@ -24,50 +24,154 @@
                 <form>
                     <input type="text" placeholder="Pretraži..">
                     <button type="submit">
-                           <img src="slike/ico-search.png">
-                        </button>
+                        <img alt="Button for search" src="slike/ico-search.png">
+                    </button>
                 </form>
 
             </div>
             <!-- end #holder-->
 
             <div id="logo">
-                <img alt="Logo" src="slike/logo.png">
+                <img alt="Logo loading.." src="slike/logo.png">
             </div>
             <!-- end #logo-->
 
             <nav id="main-menu">
-                <a href="#" class="active">POČETNA</a>
+                <a href="#home" class="active">POČETNA</a>
                 <a href="#">USLUGE</a>
-                <a href="#">O NAMA</a>
+                <a href="#second-page">O NAMA</a>
                 <a href="#">PITANJA I ODGOVORI</a>
                 <a href="#">AKTUELNOSTI</a>
                 <a href="#">KARIJERA</a>
                 <a href="#">DOKUMENTA</a>
-                <a href="#">KONTAKT</a>
+                <a href="#footer">KONTAKT</a>
             </nav>
 
         </div>
         <!-- end .column-->
-    </div>
+    </header>
     <!-- end .header-->
 
 
-    <div class="page">
-        <div class="column" id="pocetna"></div>
-    </div>
+
+    <div class="column" id="home"></div>
 
 
+
     <div class="page">
-        <div class="column" id="second">
+
+        <div class="column" id="second-page">
             <p>"Preventivna poreska kontrola vašeg poslovanja"</p>
+
+            <div class="service-row">
+
+                <div>
+                    <img alt="Business books and calculator" src="slike/slikaprva.png">
+                    <p>PREVENTIVNU PORESKU KONTROLU POSLOVNIH KNJIGA</p>
+                </div>
+
+                <div>
+                    <img alt="Data management" src="slike/slikadruga.png">
+                    <p>UPRAVLJANJE DOBROVOLJNIM OBELODANJIVANJEM PODATAKA</p>
+                </div>
+
+                <div>
+                    <img alt="Writing a complaint" src="slike/slikatreca.png">
+                    <p>POMOĆ U REŠAVANJU SPOROVA SA PORESKOM UPRAVOM I PODNOŠENJU ŽALBI NA REŠENJA</p>
+                </div>
+
+                <div>
+                    <img alt="Magnifying glass, data and calculator" src="slike/slikacetvrta.png">
+                    <p>PORESKI KONSALTING ZA VAŠU FIRMU</p>
+                </div>
+
+            </div>
+            <!--end .service-row-->
+
+            <div class="layout">
+
+                <div class="layout-column">
+                    <h2>Tax Contol Team</h2>
+
+                    <p>Tax Control Team je konsultantska firma koja se bavi poreskim<br /> konsaltingom i preventiivnom poreskom kontrolom posloanja prvanih<br /> lica u skladu sa poreskim zakonima.</p>
+
+                    <p>Tim cini grupa ekonomskih i pravnih eksperata iz polja poreske kontrole<br /> sa dugogodisnjim iskustvom na pozcijama poreskih inspektora terenske<br /> kontrole.</p>
+
+                    <p>Nas cilj je uspeh Vase kompanije i optimizacija poreskih obaveza, ali i<br /> pruzanje kvalitetnih ekspertskih usluga iskljucivo na bazzi medjusonnog<br /> poverenja i uzajamne podrske.
+                    </p>
+
+                    <p>Tim predvodi Dusica Vrhovac, dugogodisnji visi inspektor terenske<br /> kontrole Centra za velike poreske obaveznike (PU Ministarstvo finansija).</p>
+
+                    <p>Znamo poreske zakone i odredbe, zahteve i stavove Poreske uprave, kao<br /> i metodologiju rada poreskih inspektora</p>
+
+                    <button class="button-style">vise informacija &raquo;</button>
+
+                </div>
+
+                <div class="layout-column">
+                    <h2>Najcesce postavljena pitanja</h2>
+
+                    <ul>
+                        <li> Koliki je rok za podnesenje primedbi na uruceni zapsinik o izvresnoj terenskoj kontroli?
+                        </li>
+
+                        <li> Da li poreska kontrola mora da se najavi pre nego sto dodje da uruci nalog o konroli? </li>
+
+                        <li> Koji je princip izbora poreskih obaveznika, koji ce biti predmet poreske kontrole? </li>
+
+                        <li> Koliki je rok za podnosenje zalbe na resenje Poreske uprave?</li>
+
+                        <li> Podnela sam zahtev za povracaj prethodnog PDV-a, koji je rok da mi Poreska uprava vrati novac? </li>
+
+                        <li> Primio sam nalog za terensku kontrolu, da li postoji definisani rok, to jest koliko ova kontrola moze da traje?</li>
+
+                        <li> Sta mogu da ocekujem u saradnji sa vama? Da li mogu da imamaneke konsekvence u slucaju da je moja firma napravila propust u obracunu poreza?</li>
+                    </ul>
+
+                </div>
+            </div>
+            <!--end .loyout-->
         </div>
+        <!--end #second-->
     </div>
 
-    <div class="footer">
-        <div class="column"></div>
-    </div>
+    <footer id="footer">
 
+        <div>
+
+            <div>
+                <p class="main-paragraph">AKTUELNOSTI</p>
+                <p class="secondary-paragraph">Lorem Ipsum is simply dummy text of the printing</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when</p>
+                <button class="button-style">vise informacija &raquo;</button>
+            </div>
+
+            <div>
+                <p class="main-paragraph">KARIJERA</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard<br /> dummy text ever since the 1500s, when</p>
+                <button class="button-style">vise informacija &raquo;</button>
+            </div>
+
+            <div>
+                <p class="main-paragraph">GDE SE NALAZIMO?</p>
+                <img alt="Google map location" src="slike/mapa.png">
+                <p>Trg Nikole Pasica 7 <br /> 11000 Beograd</p>
+            </div>
+
+            <div>
+                <p class="main-paragraph">KONTAKT</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when</p>
+            </div>
+
+        </div>
+
+        <div class="last-part-footer">
+            <p>All rights reserved by Tax Contol Team 2014&copy;</p>
+            <p>Developed by Ogitive</p>
+        </div>
+        <!-- end .last-->
+
+    </footer>
 </body>
 
 </html>
