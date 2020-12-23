@@ -12,17 +12,17 @@
     <header>
         <div class="column">
 
-            <div id="holder">
+            <div class="header__item">
 
-                <div id="imgs">
+                <div>
                     <img alt="Flag of Serbia" src="slike/flag-rs.png">
                     <img alt="Flag of the United Kingdom" src="slike/flag-uk.png">
                 </div>
                 <!-- end #imgs-->
 
 
-                <form>
-                    <input type="text" placeholder="Pretraži..">
+                <form class="header__form">
+                    <input class="header__form__input" type="text" placeholder="Pretraži..">
                     <button type="submit" class="button button__search button--grey">
                         <img alt="Button for search" src="slike/ico-search.png">
                     </button>
@@ -31,20 +31,20 @@
             </div>
             <!-- end #holder-->
 
-            <div id="logo">
+            <div class="header__logo">
                 <img alt="Logo loading.." src="slike/logo.png">
             </div>
             <!-- end #logo-->
 
-            <nav id="main-menu">
-                <a href="#home" class="active">POČETNA</a>
-                <a href="#">USLUGE</a>
-                <a href="#second-page">O NAMA</a>
-                <a href="#">PITANJA I ODGOVORI</a>
-                <a href="#">AKTUELNOSTI</a>
-                <a href="#">KARIJERA</a>
-                <a href="#">DOKUMENTA</a>
-                <a href="#footer">KONTAKT</a>
+            <nav class="main-menu">
+                <a href="#" class="main-menu__link main-menu__link--active">POČETNA</a>
+                <a href="#" class="main-menu__link">USLUGE</a>
+                <a href="#" class="main-menu__link">O NAMA</a>
+                <a href="#" class="main-menu__link">PITANJA I ODGOVORI</a>
+                <a href="#" class="main-menu__link">AKTUELNOSTI</a>
+                <a href="#" class="main-menu__link">KARIJERA</a>
+                <a href="#" class="main-menu__link">DOKUMENTA</a>
+                <a href="#" class="main-menu__link">KONTAKT</a>
             </nav>
 
         </div>
@@ -55,6 +55,7 @@
 
 
     <div class="column" id="home"></div>
+
 
 
 
@@ -90,8 +91,8 @@
 
             <div class="layout">
 
-                <div class="layout-column">
-                    <h2>Tax Contol Team</h2>
+                <div class="layout__column">
+                    <h2 class="layout__title">Tax Contol Team</h2>
 
                     <p>Tax Control Team je konsultantska firma koja se bavi poreskim<br /> konsaltingom i preventiivnom poreskom kontrolom posloanja prvanih<br /> lica u skladu sa poreskim zakonima.</p>
 
@@ -108,10 +109,10 @@
 
                 </div>
 
-                <div class="layout-column">
-                    <h2>Najcesce postavljena pitanja</h2>
+                <div class="layout__column">
+                    <h2 class="layout__title">Najcesce postavljena pitanja</h2>
 
-                    <ul>
+                    <ul class="layout__list">
                         <li> Koliki je rok za podnesenje primedbi na uruceni zapsinik o izvresnoj terenskoj kontroli?
                         </li>
 
@@ -135,37 +136,37 @@
         <!--end #second-->
     </div>
 
-    <footer id="footer">
+    <footer id="footer" class="footer">
 
-        <div>
+        <div class="footer__item">
 
-            <div>
+            <div class="footer__item-second">
                 <p class="main-paragraph">AKTUELNOSTI</p>
                 <p class="secondary-paragraph">Lorem Ipsum is simply dummy text of the printing</p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when</p>
                 <button class="button button--red">vise informacija &raquo;</button>
             </div>
 
-            <div>
+            <div class="footer__item-second">
                 <p class="main-paragraph">KARIJERA</p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard<br /> dummy text ever since the 1500s, when</p>
                 <button class="button button--red">vise informacija &raquo;</button>
             </div>
 
-            <div>
+            <div class="footer__item-second">
                 <p class="main-paragraph">GDE SE NALAZIMO?</p>
                 <img alt="Google map location" src="slike/mapa.png">
                 <p>Trg Nikole Pasica 7 <br /> 11000 Beograd</p>
             </div>
 
-            <div>
+            <div class="footer__item-second">
                 <p class="main-paragraph">KONTAKT</p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when</p>
             </div>
 
         </div>
 
-        <div class="last-part-footer">
+        <div class="footer__item footer__last-item">
             <p>All rights reserved by Tax Contol Team 2014&copy;</p>
             <p>Developed by Ogitive</p>
         </div>
