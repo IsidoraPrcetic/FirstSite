@@ -57,10 +57,6 @@ body {
     margin-bottom: 50px;
 }
 
-#search {
-    background-color: #666666;
-}
-
 #imgs img {
     margin: 2px 1px;
 }
@@ -96,9 +92,24 @@ form input {
     border: none;
 }
 
-form button {
+.button {
     border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.button__search {
     margin-left: 0px;
+}
+
+.button--red {
+    background-color: #b61f25;
+}
+
+.button--grey {
+    background-color: #f8f6f6e5;
 }
 
 .service-row {
@@ -168,13 +179,6 @@ form button {
 li:before {
     content: "\00BB";
     color: #b61f25;
-}
-
-.button-style {
-    background-color: #b61f25;
-    color: #ffffff;
-    font-size: 10px;
-    padding: 5px;
 }
 
 footer {
