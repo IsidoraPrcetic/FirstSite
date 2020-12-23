@@ -69,6 +69,8 @@ body {
     background: url('slike/slika1.png');
     background-origin: content-box;
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 330px;
     width: 960px;
     border-bottom: 4px solid #dc0101;
@@ -192,7 +194,7 @@ footer>div {
 footer>div>div {
     margin: 10px;
     width: 220px;
-    height: 250px;
+    height: 300px;
     font-family: 'Open Sans';
     font-weight: bold;
     font-size: 11px;
