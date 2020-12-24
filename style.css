@@ -8,8 +8,6 @@ body {
     margin: 0px auto;
 }
 
-.header {}
-
 .header__item {
     display: flex;
     justify-content: space-between;
@@ -56,7 +54,7 @@ body {
     margin-bottom: 50px;
 }
 
-#home {
+.home {
     background: url('slike/slika1.png');
     background-position: top;
     background-repeat: no-repeat;
@@ -65,7 +63,7 @@ body {
     border-bottom: 4px solid #dc0101;
 }
 
-#second-page>p {
+.second__page__title {
     font-size: 32px;
     font-family: 'Open Sans';
     font-style: italic;
@@ -100,16 +98,16 @@ body {
     justify-content: space-around;
 }
 
-.service-row>div {
+.service-row__container {
     width: 220px;
     height: 115px;
 }
 
-.service-row>div>img {
+.service-row__container>img {
     border-bottom: 2px solid #b20000;
 }
 
-.service-row>div>p {
+.service-row__container>p {
     margin-top: 0px;
     font-family: 'Open Sans';
     font-weight: bold;
@@ -154,11 +152,11 @@ body {
     color: #333333;
 }
 
-.layout__list li {
+.layout__list__item {
     padding: 5px;
 }
 
-li:before {
+.layout__list__item:before {
     content: "\00BB";
     color: #b61f25;
 }
@@ -192,7 +190,7 @@ li:before {
     justify-content: space-between;
 }
 
-.main-paragraph {
+.footer__item-second__title {
     font-family: 'Open Sans';
     font-size: 18px;
 }
