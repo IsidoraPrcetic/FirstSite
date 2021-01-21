@@ -63,7 +63,7 @@ body {
     border-bottom: 4px solid #dc0101;
 }
 
-.second__page__title {
+.second-page__title {
     font-size: 32px;
     font-family: 'Open Sans';
     font-style: italic;
@@ -141,6 +141,7 @@ body {
     font-size: 12px;
     color: #333333;
     kerning: 0;
+    position: relative;
 }
 
 .layout__list {
@@ -154,6 +155,7 @@ body {
 
 .layout__list__item {
     padding: 5px;
+    cursor: pointer;
 }
 
 .layout__list__item:before {
@@ -188,9 +190,10 @@ body {
 .footer__last-item {
     font-size: 11px;
     justify-content: space-between;
+    position: absolute;
 }
 
-.footer__item-second__title {
+.footer__title {
     font-family: 'Open Sans';
     font-size: 18px;
 }
@@ -199,3 +202,28 @@ body {
     text-transform: uppercase;
     text-decoration: underline;
 }
+
+.answer {
+    display: none;
+    position: absolute;
+    background-color: rgb(245, 237, 237);
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 5px;
+    width: 460px;
+}
+
+.layout__list__item:hover>.answer {
+    display: block;
+    position: relative;
+}
+
+
+/*.layout__list__item {
+    border: none;
+    width: 460px;
+    position: absolute;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-size: 11px;
+}*/
