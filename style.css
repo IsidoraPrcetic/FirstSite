@@ -3,37 +3,34 @@ body {
     padding: 0px;
 }
 
-.footer {
-    border-top: 4px solid #dc0101;
-}
-
 .column {
     width: 960px;
     margin: 0px auto;
 }
 
-.page .column {
-    height: 100vh;
-}
-
-#holder {
+.header__item {
     display: flex;
+    justify-content: space-between;
 }
 
-#imgs {
-    flex-grow: 1;
-}
-
-#serach {
-    flex-grow: 1;
-}
-
-#main-menu {
+.header__form {
     display: flex;
+    flex-direction: row;
 }
 
-#main-menu a {
-    flex-grow: 1;
+.header__form__input {
+    background-color: #f8f6f6e5;
+    margin: 0px;
+    border: none;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-menu__link {
     text-align: center;
     color: #666666;
     text-decoration: none;
@@ -44,39 +41,29 @@ body {
     font-size: 14px;
 }
 
-#main-menu a:hover,
-#main-menu a.active {
+.main-menu__link:hover,
+.main-menu__link--active {
     color: #e80606;
     transition: 300ms;
 }
 
-#logo {
+.header__logo {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-#search {
-    background-color: #666666;
-}
-
-#imgs img {
-    margin: 2px 1px;
-}
-
-#home {
+.home {
     background: url('slike/slika1.png');
-    background-origin: content-box;
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
     height: 330px;
     width: 960px;
     border-bottom: 4px solid #dc0101;
 }
 
-#second-page>p {
+.second__page__title {
     font-size: 32px;
     font-family: 'Open Sans';
     font-style: italic;
@@ -85,20 +72,24 @@ body {
     text-align: center;
 }
 
-form {
-    display: flex;
-    flex-direction: row;
+.button {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 10px;
 }
 
-form input {
-    background-color: #f8f6f6e5;
-    margin: 0px;
-    border: none;
-}
-
-form button {
-    border: none;
+.button__search {
     margin-left: 0px;
+}
+
+.button--red {
+    background-color: #b61f25;
+}
+
+.button--grey {
+    background-color: #f8f6f6e5;
 }
 
 .service-row {
@@ -107,16 +98,16 @@ form button {
     justify-content: space-around;
 }
 
-.service-row>div {
+.service-row__container {
     width: 220px;
     height: 115px;
 }
 
-.service-row>div>img {
+.service-row__container>img {
     border-bottom: 2px solid #b20000;
 }
 
-.service-row>div>p {
+.service-row__container>p {
     margin-top: 0px;
     font-family: 'Open Sans';
     font-weight: bold;
@@ -133,26 +124,26 @@ form button {
     width: 960px;
 }
 
-.layout-column {
+.layout__column {
     flex: 50%;
     margin: 50px 10px;
     font-family: 'Open Sans';
     font-weight: bold;
 }
 
-.layout-column h2 {
+.layout__title {
     font-size: 24px;
     color: #b61f25;
     kerning: 0;
 }
 
-.layout-column p {
+.layout__column p {
     font-size: 12px;
     color: #333333;
     kerning: 0;
 }
 
-.layout-column ul {
+.layout__list {
     font-size: 12px;
     list-style-position: outside;
     list-style-type: none;
@@ -161,28 +152,21 @@ form button {
     color: #333333;
 }
 
-.layout-column ul li {
+.layout__list__item {
     padding: 5px;
 }
 
-li:before {
+.layout__list__item:before {
     content: "\00BB";
     color: #b61f25;
 }
 
-.button-style {
-    background-color: #b61f25;
-    color: #ffffff;
-    font-size: 10px;
-    padding: 5px;
-}
-
-footer {
+.footer {
     background: #554343e1;
     border-top: 4px solid #b20000;
 }
 
-footer>div {
+.footer__item {
     display: flex;
     justify-content: space-around;
     width: 960px;
@@ -191,7 +175,7 @@ footer>div {
     color: #ffffff;
 }
 
-footer>div>div {
+.footer__item-second {
     margin: 10px;
     width: 220px;
     height: 300px;
@@ -201,7 +185,12 @@ footer>div>div {
     kerning: 0;
 }
 
-.main-paragraph {
+.footer__last-item {
+    font-size: 11px;
+    justify-content: space-between;
+}
+
+.footer__item-second__title {
     font-family: 'Open Sans';
     font-size: 18px;
 }
@@ -209,9 +198,4 @@ footer>div>div {
 .secondary-paragraph {
     text-transform: uppercase;
     text-decoration: underline;
-}
-
-.last-part-footer {
-    font-size: 11px;
-    justify-content: space-between;
 }
