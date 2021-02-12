@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-menu {
+    height: 50px;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main-menu__link {
+    text-align: center;
+    color: #666666;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.main-menu__link:hover,
+.main-menu__link--active {
+    color: #e80606;
+    transition: 300ms;
+}
+
+.contact-page {
+    height: 100vh;
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template: "a a" "b c" "b c";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px auto auto;
+    grid-gap: 20px;
+    background-color: rgb(226, 222, 222);
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    grid-area: a;
+    align-items: center;
+}
+
+.page__form {
+    grid-area: b;
+}
+
+.form__part {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.form__part>input[type="text"],
+.form__part>input[type="email"] {
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(221, 221, 220);
+}
+
+.form__button {
+    margin-left: 10px;
+}
+
+.page__holder {
+    grid-area: c;
+    align-items: flex-end;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.footer__content {
+    background: #554343e1;
+    border-top: 4px solid #b20000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
