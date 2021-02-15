@@ -17,7 +17,7 @@
  ![Screenshot_4](https://user-images.githubusercontent.com/76435969/107919503-bf80b880-6f6b-11eb-87d5-02d6aed99f5a.png)
  
  ## Contact page
-  On this page there is a form for forwarding messages by the usersand company location. Google map is embadded usig <iframe> HTML tag.
+  On this page there is a form for forwarding messages by the usersand company location. Google map is embadded using <iframe> HTML tag.
  
  ## Contributing
   Pull requests are welcome.
